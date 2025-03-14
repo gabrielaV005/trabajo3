@@ -1,0 +1,141 @@
+.padre{
+    background-color: rgb(49, 33, 121);
+    width: auto;
+    height: 300px;
+    font-size: 20px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns:16% 16% 16% 8% 8% 8% 11% 17%;
+    grid-template-rows: 12% 12% 31% 31% 14%;
+    
+}
+.padre .caja1{
+    background-color: pink;
+    margin: 5px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    
+}
+.padre .caja2{
+    background-color: turquoise;
+    margin: 5px;
+    z-index: 10;
+    grid-column: 4/9;
+    grid-row: 1/2;
+}
+.padre .caja3{
+    background-color: rgb(77, 155, 219);
+    margin: 5px;
+    text-align: center;
+    grid-column: 1/9;
+    grid-row: 2/3;
+}
+.padre .caja4{
+    background-color: rgb(109, 118, 241);
+    margin: 5px;
+    grid-column: 1/2;
+    grid-row: 3/6;
+    text-align: center;
+    align-content: center;
+}
+.padre .caja5{
+    background-color: rgb(31, 153, 68);
+    margin: 5px;
+    grid-column: 8/9;
+    grid-row: 3/6;
+    text-align: center;
+    align-content: center;
+}
+.padre .caja6{
+    background-color: rgb(17, 143, 55);
+    margin: 5px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+    align-content: center;
+}
+.padre .caja7{
+    background-color: rgb(17, 143, 55);
+    margin: 5px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    text-align: center;
+    align-content: center;
+}
+.padre .caja8{
+    background-color: rgb(17, 143, 55);
+    margin: 5px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    text-align: center;
+    align-content: center;
+}
+.padre .caja9{
+    background-color: rgb(17, 143, 55);
+    margin: 5px;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    text-align: center;
+    align-content: center;
+}
+.padre .caja10{
+    
+    margin: 5px;
+    grid-column: 4/8;
+    grid-row: 3/5;
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: 23% 23% 23% 31%;
+    grid-template-rows: 33% 33% 33%;
+}
+.padre .caja10 .caja101{
+    background-color: rgb(167, 190, 235);
+    margin: 5px;
+    align-content: center;
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.padre .caja10 .caja102{
+    background-color: rgb(167, 190, 235);
+    margin: 5px;
+    align-content: center;
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+.padre .caja10 .caja103{
+    background-color: rgb(167, 190, 235);
+    margin: 5px;
+    align-content: center;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.padre .caja10 .caja104{
+    background-color: rgb(167, 190, 235);
+    margin: 5px;
+    align-content: center;
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+.padre .caja10 .caja105{
+    background-color: rgb(167, 190, 235);
+    margin: 5px;
+    align-content: center;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.padre .caja10 .caja106{
+    background-color: rgb(167, 190, 235);
+    margin: 5px;
+    align-content: center;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+.padre .caja11{
+    background-color: rgb(17, 143, 55);
+    margin: 5px;
+    grid-column: 2/8;
+    grid-row: 5/6;
+    text-align: center;
+    align-content: center;
+}
